@@ -1,0 +1,32 @@
+/*The start of css*/
+
+#Nico {
+    color: #1b793c;
+    text-align: center;
+    font-family: 'Sulphur Point',Helvetica, sans-serif;
+}
+
+#Nacho {
+    width: 70%;
+    background-color: #c6e9d2;
+    align-content: center;
+    text-align: center; 
+    line-height: 1.8rem;
+    padding: 10px 7.5px 10px 7.5px; /* Top Right Bottom Left */
+    margin: 0px 0px 0px 170px;
+    font-family: 'Sulphur Point',Helvetica, sans-serif;
+}
+
+#Lalala {
+    font-size: 20px;
+    font-family: 'Sulphur Point',Helvetica, sans-serif;
+}
+
+#Nacho {
+    text-align: center;
+}
+
+#img {
+    max-width: 10%;
+    max-height: 10%
+}
