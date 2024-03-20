@@ -27,6 +27,17 @@
 }
 
 #img {
-    max-width: 10%;
-    max-height: 10%
+    max-width: 6.5%;
+    max-height: 6.5%;
+}
+
+#Vertigo { 
+    font-size: 1.5em;
+    font-family: 'Sulphur Point',Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#Link2 {
+    font-size: 20px;
+    font-family: 'Sulphur Point',Helvetica, sans-serif;
 }
