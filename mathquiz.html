@@ -1,0 +1,48 @@
+<!-- ARRANGEMENTS TO QUESTIONS AND CODE WILL BE MADE SOON -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔢 Math Quiz Game</title>
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Game title -->
+            <h1>Math Quiz Game</h1> 
+            <!-- Game description -->
+            <p>Test your math skills within the time limit.</p> 
+        </header>
+        <div id="timer-container">
+            <div id="time-circle">
+                <!-- Displays the timer countdown -->
+                <span id="time">30</span> 
+            </div>
+        </div>
+        <div id="quiz-container">
+            <div id="question-container">
+                <!-- Displays the math question -->
+                <p id="question">5 + 3</p> 
+            </div>
+            <!-- Input field for the answer -->
+            <input type="number" id="input" placeholder="Your Answer"> 
+            <!-- Button to submit the answer -->
+            <button id="submit-button" onclick="checkAnswer()">Submit Answer</button> 
+            <!-- Displays the result of the quiz -->
+            <p id="result"></p> 
+        </div>
+        <div id="score-container">
+            <!-- Displays the player's score -->
+            <p>Score: <span id="score">0</span></p> 
+        </div>
+        <!-- Button to start the game -->
+        <button id="start-button" onclick="startGame()">Start Game</button>
+    </div>
+    <!-- Link of an external JavaScript file for functionality -->
+    <script src="script.js"></script> 
+</body>
+</html>

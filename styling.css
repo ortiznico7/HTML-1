@@ -1,6 +1,12 @@
 /*The start of css*/
 
-#Nico {
+h1 {
+    color: #1b793c;
+    text-align: center;
+    font-family: 'Rubik',Helvetica, sans-serif;
+}
+
+h2 {
     color: #1b793c;
     text-align: center;
     font-family: 'Rubik',Helvetica, sans-serif;
@@ -31,7 +37,7 @@
     max-height: 6.5%;
 }
 
-#Vertigo { 
+p { 
     font-size: 1.5em;
     font-family: 'Rubik',Helvetica, sans-serif;
     font-weight: bold;
@@ -40,4 +46,23 @@
 #Link2 {
     font-size: 20px;
     font-family: 'Rubik',Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Rubik',Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #c6e9d2
 }
