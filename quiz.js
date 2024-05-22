@@ -11,7 +11,6 @@
 // //     console.log('Started')
 // //    startButton.classlist.add('hide')
 // //     shuffledQuestions = questions.sort(() => Math.random() - .5)
-// //     currentQuestionIndex = 0
 // //     questionContainerElement.classlist.remove('hide')
 // //     setNextQuestion()
 // // }
