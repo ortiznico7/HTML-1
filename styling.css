@@ -1,46 +1,72 @@
 /*The start of css*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
 body {
     background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/441503750_1515219482740018_3445970861999677079_n.png?stp=dst-png_s2048x2048&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YM1FWnwRxhEQ7kNvgGlYNFA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QEePV_rdMDcxzudRZdhtjruI9MUd8HsLY05ia4kq2hFaA&oe=66858F23");
-    height: 130px;
+    background-color: #c6e9d2;
     background-repeat: no-repeat;
     border: 3px solid black;
-    background-color: #c6e9d2;
     border-radius: 15px;
     box-shadow: 0.5px 0.5px 0.5px black;
     text-shadow: 0.5px 0.5px 0.5px black;
+    font-family: 'Rubik', Helvetica, sans-serif;
 }
 
-h1 {
-    color: #1b793c;
-    text-align: center;
-    font-family: 'Rubik',Helvetica, sans-serif;
+/* Mobile view */
+@media (max-width: 600px) {
+    body {
+        background-size: cover;
+    }
+    #Nacho {
+        width: 90%;
+        margin: 0 auto;
+    }
+    ul {
+        flex-direction: column;
+    }
 }
 
-h2 {
+/* Tablet view */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-size: cover;
+    }
+    #Nacho {
+        width: 80%;
+        margin: 0 auto;
+    }
+    ul {
+        flex-direction: row;
+    }
+}
+
+/* Desktop view */
+@media (min-width: 1025px) {
+    body {
+        background-size: cover;
+    }
+    #Nacho {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+h1, h2 {
     color: #1b793c;
     text-align: center;
-    font-family: 'Rubik',Helvetica, sans-serif;
 }
 
 #Nacho {
     color: #c6e9d2;
-    width: 70%;
     background-color: #1b793c;
-    align-content: center;
     text-align: center; 
     line-height: 1.8rem;
-    padding: 10px 7.5px 10px 7.5px; /* Top Right Bottom Left */
-    margin: 0px 0px 0px 170px;
-    font-family: 'Rubik',Helvetica, sans-serif;
+    padding: 10px 7.5px;
+    margin: 0 auto;
 }
 
 #Lalala {
     font-size: 20px;
-    font-family: 'Rubik',Helvetica, sans-serif;
-}
-
-#Nacho {
-    text-align: center;
 }
 
 #img {
@@ -51,14 +77,11 @@ h2 {
 p { 
     padding-top: 2px;
     font-size: 1.5em;
-    font-family: 'Rubik',Helvetica, sans-serif;
     font-weight: lighter;
 }
 
-
 #Link2 {
     font-size: 20px;
-    font-family: 'Rubik',Helvetica, sans-serif;
 }
 
 ul {
@@ -68,10 +91,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Rubik',Helvetica, sans-serif;
-    font-weight: bold; 
+    font-weight: bold;
     width: 98.25vw;
-
 }
 
 li {
@@ -83,6 +104,5 @@ li a {
     display: block;
     padding: 8px;
     border-radius: 20px;
-    background-color: #83dda3
+    background-color: #83dda3;
 }
-
